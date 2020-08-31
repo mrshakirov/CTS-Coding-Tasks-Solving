@@ -1,3 +1,13 @@
+#Given a dictionary of words, split the input string into valid words. Return the list of valid words, or null if there are unknown words
+
+#dict = {“a”, “app”, “apple”, “lemon”, “day”, “monday”}
+
+#input = “applemonday”
+
+#output = [“app”, “lemon”, “day”]
+
+#also possible: [“apple”, “monday”]
+
 class CodingTask:
     def SplitSentence2Words(self, preprocc, dictionary, sentence, out):
         if len(sentence) == 0:

@@ -1,3 +1,8 @@
+#Given a number N. The task is to create an alphabetical string in lower case from that number and tell whether the string is palindrome or not. a = 0, b = 1….. and so on.
+
+#For eg: If the number is 61 the substring “gb” will be printed till 7 (6+1) characters i.e. “gbgbgbg” and check if palindrome or not.
+
+#Note: No number will start with zero. Consider alphabets ‘ a to j ‘ only i.e. single digit numbers from 0 to 9.
 
 class Palindrome:
     def isPalindrome(self, str):
